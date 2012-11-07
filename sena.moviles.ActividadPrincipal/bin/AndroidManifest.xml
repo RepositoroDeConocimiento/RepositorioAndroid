@@ -24,6 +24,7 @@
         <activity android:name="Login"></activity>
         <activity android:name="VentanaPrincipal"></activity>
         <activity android:name="RegistrarCategoria"></activity>
+        <activity android:name="ConsultarCategoria"></activity>
     </application>
 
 </manifest>

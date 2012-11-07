@@ -2,5 +2,6 @@
 
     <style name="AppTheme" parent="android:Theme.Light" />
     <color name="blanco">#FFFFFF</color>
+    <color name="ceniza">#B2BEB5</color>
 
 </resources>

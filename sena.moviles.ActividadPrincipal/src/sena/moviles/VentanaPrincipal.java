@@ -3,16 +3,18 @@ package sena.moviles;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.view.MenuItemCompat;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class VentanaPrincipal extends Activity {
 	
 	TextView rol;
-	
+	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ventana_principal);
@@ -21,14 +23,16 @@ public class VentanaPrincipal extends Activity {
         rol.setText(bundle.getString("VentanaPrincipal").toString());
     }
 
-
-    public boolean onCreateOptionsMenu(Menu menu){
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu){
 		MenuInflater inflater=getMenuInflater();
 		inflater.inflate(R.menu.menu_principal, menu);
 		return super.onCreateOptionsMenu(menu);
 	}
 	
+
 	
+	@Override
 	public boolean onOptionsItemSelected(MenuItem item){
 		
 		switch (item.getItemId()) {
@@ -48,6 +52,8 @@ public class VentanaPrincipal extends Activity {
 			break;
 		case R.id.subItemGestionarCategoria:
 			Toast.makeText(VentanaPrincipal.this, "Selecciono Gestionar Categoria", Toast.LENGTH_SHORT).show();
+			Intent j = new Intent(this, ConsultarCategoria.class );
+		    startActivity(j);
 			break;
 		default:
 			break;

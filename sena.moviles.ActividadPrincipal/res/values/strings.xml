@@ -21,5 +21,7 @@
     </string-array>
         <string name="seleccione1">Seleccione una Opción del Menú</string>
         <string name="crearCategoria">Registrar Categoria</string>
+        <string name="consultaCategoria">Consultar Categoria</string>
+        <string name="botonPuntos">...</string>
 
 </resources>

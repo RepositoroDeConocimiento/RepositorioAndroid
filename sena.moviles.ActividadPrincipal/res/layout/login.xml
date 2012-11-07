@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/AbsoluteLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/textura1">
-
+    android:background="@drawable/textura1" >
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="134dp"
         android:layout_y="20dp"
-        android:text="@string/login" />
+        android:text="@string/login"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/tam_tres" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -67,5 +70,7 @@
 
         <requestFocus />
     </EditText>
+    
+
 
 </AbsoluteLayout>
