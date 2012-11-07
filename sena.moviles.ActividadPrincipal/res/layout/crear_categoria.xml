@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textura1" >
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="274dp"
+        android:layout_height="174dp"
+        android:layout_x="20dp"
+        android:layout_y="216dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textSize="@dimen/tam_uno" />
+
+    <Button
+        android:id="@+id/botonCerrarRegCateg"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_x="184dp"
+        android:layout_y="410dp"
+        android:onClick="cerrar"
+        android:text="@string/botonCancelar" />
+
+    <Button
+        android:id="@+id/botonRegistrarCateg"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="410dp"
+        android:text="@string/botonAceptar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="186dp"
+        android:text="Descripción" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="123dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="92dp"
+        android:text="Nombre" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="30dp"
+        android:text="@string/crearCategoria"
+        android:textSize="@dimen/tam_tres" />
+
+</AbsoluteLayout>

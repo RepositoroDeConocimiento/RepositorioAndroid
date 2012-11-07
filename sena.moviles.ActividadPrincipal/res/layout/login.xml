@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textura1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="134dp"
+        android:layout_y="20dp"
+        android:text="@string/login" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="158dp"
+        android:layout_height="158dp"
+        android:layout_x="77dp"
+        android:layout_y="55dp"
+        android:src="@drawable/imagen_login" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="252dp"
+        android:text="@string/labelIngreso"
+        android:textColor="@color/blanco" />
+
+    <Spinner
+        android:id="@+id/comboLogin"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="238dp"
+        android:entries="@array/roles" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="360dp"
+        android:onClick="iniciar"
+        android:text="@string/botonAceptar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_x="170dp"
+        android:layout_y="360dp"
+        android:onClick="cancelar"
+        android:text="@string/botonCancelar" />
+
+    <EditText
+        android:id="@+id/cajaPassword"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="293dp"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+</AbsoluteLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tam_uno">20px</dimen>
+    <dimen name="tam_dos">24px</dimen>
+    <dimen name="tam_tres">30px</dimen>
+    <dimen name="n1">34px</dimen>
+</resources>
