@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textura1" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="2dp"
+        android:text="@string/crearCategoria"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/tam_tres" />
+
+    <LinearLayout
+        android:layout_width="324dp"
+        android:layout_height="348dp"
+        android:layout_x="0dp"
+        android:layout_y="30dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textColor="@color/blanco" />
+
+        <EditText
+            android:id="@+id/campoNombreCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textColor="@color/blanco" />
+
+        <EditText
+            android:id="@+id/areaDescripcionCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/tam_uno" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="396dp" >
+
+        <Button
+            android:id="@+id/botonRegistrarCateg"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.62"
+            android:onClick="registrar"
+            android:text="@string/botonAceptar" />
+
+        <Button
+            android:id="@+id/botonCerrarRegCateg"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:onClick="cerrar"
+            android:text="@string/botonCancelar" />
+    </LinearLayout>
+
+</AbsoluteLayout>

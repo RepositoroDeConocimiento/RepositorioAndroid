@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemRegistrar" android:title="Registrar">
+        <menu>
+            <item android:id="@+id/itemRegistrarCategoria" android:title="Registrar Categoria"/>
+            <item android:id="@+id/itemRegistrarSubCategoria" android:title="Registrar SubCategoria"/>
+            <item android:id="@+id/itemRegistrarTema" android:title="Registrar Temas"/>
+            <item android:id="@+id/itemRegistrarUsuario" android:title="Registrar Usuario"/>
+        </menu>
+    </item>
+    <item android:id="@+id/itemConsultar" android:title="Consultar">
+        <menu>
+            <item android:id="@+id/itemConsultarCategoria" android:title="Consultar Categoria"/>
+            <item android:id="@+id/itemConsultarSubCategoria" android:title="Consultar SubCategoria"/>
+            <item android:id="@+id/itemConsultarTema" android:title="Consultar Tema"/>
+        </menu>
+    </item>
+    
+
+</menu>

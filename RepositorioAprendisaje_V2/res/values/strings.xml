@@ -1,0 +1,75 @@
+<resources>
+
+    <string name="app_name">RepositorioAprendizaje</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_actividad_principal">ActividadPrincipal</string>
+    <string name="tituloPrincipal">Repositorio de Conocimiento</string>
+    <string name="mensajeInicio">Selecciona alguna de las siguientes opciones para empezar</string>
+    <string name="botonInicio">Inicio</string>
+    <string name="botonAyuda">Ayuda</string>
+    <string name="botonAtras">Atras</string>
+    <string name="login">Login</string>
+    <string name="labelIngreso">Ingreso</string>
+    <string name="botonAceptar">Aceptar</string>
+    <string name="botonCancelar">Cancelar</string>
+    <string name="tituloComboLogin">Perfiles</string>
+    <string-array name="roles">
+        <item >Seleccione</item>
+        <item >Administrador</item>
+        <item >Usuario</item>
+    </string-array>
+        <string name="seleccione1">Seleccione una Opción del Menú</string>
+        <string name="crearCategoria">Registrar Categoria</string>
+        <string name="consultaCategoria">Consultar Categoria</string>
+        <string name="botonPuntos">...</string>
+        <string name="tituloSubCategoria">Registrar SubCategoria</string>
+        <string name="tituloTema">Crear Tema</string>
+        <string name="labelSubCategoria">Categoria</string>
+        <string-array name="subCategorias">
+            <item >Seleccione</item>
+            <item >Java</item>
+            <item >.Net</item>
+            <item >visual</item>
+            <item >iReports</item>
+            <item >CristalReports</item>
+            <item >tema3</item>
+            <item >tema4</item>
+            <item >tema5</item>
+            <item >tema6</item>
+            <item >tema3</item>
+            <item >tema4</item>
+            <item >tema5</item>
+            <item >tema6</item>
+            <item >tema3</item>
+            <item >tema4</item>
+            <item >tema5</item>
+            <item >tema6</item>
+            <item >tema3</item>
+            <item >tema4</item>
+            <item >tema5</item>
+            <item >tema6</item>
+            <item >tema3</item>
+            <item >tema4</item>
+            <item >tema5</item>
+            <item >tema6</item>
+        </string-array>
+            <string name="labelProblematica">Problema</string>
+            <string name="labelSolucion">Solucion Encontrada</string>
+            <string name="labelCategoria">Categoria</string>
+            <string-array name="categorias">
+                <item >Desarrollo de Software</item>
+                <item >Mantenimiento de Equipos</item>
+                <item >Creacion de Reportes</item>
+                <item >Desarrollo de Software2</item>
+                <item >Mantenimiento de Equipos2</item>
+                <item >Creacion de Reportes2</item>
+            </string-array>
+                <string name="label_registroUsuario">Registrar Usuario</string>
+                <string name="radio_administrador">Administrador</string>
+                <string name="radio_basico">Basico</string>
+                <string name="label_perfil">Perfil</string>
+                <string name="contrasena1">Ingrese Contraseña</string>
+                <string name="contrasena2">Confirme Contraseña</string>
+
+</resources>
